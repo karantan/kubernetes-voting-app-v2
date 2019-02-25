@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: db  # name needs to be `db` because of the `docker/example-voting-app-worker`
   labels:
-    app: voting-app-v1
+    app: voting-app-v2
     name: postgres-service
 spec:
   # ClusterIP type by default

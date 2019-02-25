@@ -10,4 +10,4 @@ services:
 
 .PHONY: destroy
 destroy:
-	@kubectl delete deployments,services -l app: voting-app-v2
+	@kubectl delete deployments,service -l app=voting-app-v2
